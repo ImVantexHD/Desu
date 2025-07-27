@@ -1,0 +1,43 @@
+body {
+  background: url("dance1.gif");
+}
+
+.red {
+  color: #d30615;
+}
+
+.green {
+  color: #489b67;
+}
+
+.red, .green {
+  font-size: 50px; /* Adjust the font size as per your preference */
+}
+
+.center-container {
+  text-align: center;
+}
+
+.center-container a {
+  display: block;
+  font-size: 100px; /* Set the text size to 100px */
+}
+
+.center-container a .red-text {
+  color: red; /* Set the color of "TAKE ME BACK" to red */
+}
+
+.center-container a .green-text {
+  color: green; /* Set the color of "です" to green */
+}
+
+.timer {
+  font-size: 22px;
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+#clickable-div {
+  cursor: pointer;
+}
+
